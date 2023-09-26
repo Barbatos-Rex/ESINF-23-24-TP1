@@ -1,4 +1,4 @@
-package pt.ipp.isep.esinf;
+package pt.ipp.isep.esinf.data;
 
 import java.util.Objects;
 

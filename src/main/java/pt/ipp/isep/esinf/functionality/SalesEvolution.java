@@ -1,4 +1,8 @@
-package pt.ipp.isep.esinf;
+package pt.ipp.isep.esinf.functionality;
+
+import pt.ipp.isep.esinf.data.DataBitEVSale;
+import pt.ipp.isep.esinf.structs.DoublyYearRate;
+import pt.ipp.isep.esinf.structs.InvariabilityOfSales;
 
 import java.util.*;
 

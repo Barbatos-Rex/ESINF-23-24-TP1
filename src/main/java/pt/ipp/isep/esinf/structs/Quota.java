@@ -1,4 +1,4 @@
-package pt.ipp.isep.esinf;
+package pt.ipp.isep.esinf.structs;
 
 public class Quota {
     private int stalls;

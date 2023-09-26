@@ -1,4 +1,6 @@
-package pt.ipp.isep.esinf;
+package pt.ipp.isep.esinf.algorithm;
+
+import pt.ipp.isep.esinf.data.DataBitChargers;
 
 import java.util.Set;
 

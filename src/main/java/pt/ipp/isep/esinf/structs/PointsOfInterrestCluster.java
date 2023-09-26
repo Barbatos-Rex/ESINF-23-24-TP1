@@ -1,4 +1,7 @@
-package pt.ipp.isep.esinf;
+package pt.ipp.isep.esinf.structs;
+
+import pt.ipp.isep.esinf.data.DataBitChargers;
+import pt.ipp.isep.esinf.data.GPS;
 
 import java.util.Set;
 

@@ -1,4 +1,7 @@
-package pt.ipp.isep.esinf;
+package pt.ipp.isep.esinf.structs;
+
+import pt.ipp.isep.esinf.algorithm.MaximumMinimumDistanceBetweenChargersAlgorithm;
+import pt.ipp.isep.esinf.data.DataBitChargers;
 
 import java.util.Comparator;
 import java.util.Set;
