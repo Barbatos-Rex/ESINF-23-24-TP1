@@ -82,7 +82,7 @@ public class EletricStationsByKw {
             if (o1.getTotal() == o2.getTotal()) {
                 return o1.getCountry().compareToIgnoreCase(o2.getCountry());
             }
-            return o1.getTotal() - o2.getTotal();
+            return -(o1.getTotal() - o2.getTotal());
         }
     }
 
