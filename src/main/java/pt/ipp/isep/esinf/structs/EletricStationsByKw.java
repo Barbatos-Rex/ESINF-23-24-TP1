@@ -1,4 +1,4 @@
-package pt.ipp.isep.esinf.functionality;
+package pt.ipp.isep.esinf.structs;
 
 import java.util.*;
 

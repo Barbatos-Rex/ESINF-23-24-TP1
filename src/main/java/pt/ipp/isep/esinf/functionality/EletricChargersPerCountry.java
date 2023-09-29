@@ -2,6 +2,7 @@ package pt.ipp.isep.esinf.functionality;
 
 import pt.ipp.isep.esinf.algorithm.TableMaximumMinimumDistanceBetweenChargersAlgorithm;
 import pt.ipp.isep.esinf.data.DataBitChargers;
+import pt.ipp.isep.esinf.structs.EletricStationsByKw;
 import pt.ipp.isep.esinf.structs.MinimumAutonomy;
 
 import java.util.*;
