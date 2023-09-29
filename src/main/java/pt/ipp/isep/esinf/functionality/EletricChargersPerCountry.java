@@ -17,14 +17,19 @@ public class EletricChargersPerCountry {
     }
 
 
-    public Map<String, Integer> numberOfChargersPerCity() {
-        Map<String, Integer> result = new HashMap<>();
+    public Map<String, Map<String,Integer>> numberOfChargersPerCity() {
+        Map<String, Map<String,Integer>> result = new HashMap<>();
         for (DataBitChargers bit : data) {
             String countryToOperate = bit.getCountry();
+            String cityToOperate = bit.getCity();
             if (!result.containsKey(countryToOperate)) {
-                result.put(countryToOperate, 0);
+                result.put(countryToOperate, new HashMap<>());
             }
-            result.replace(countryToOperate, result.get(countryToOperate) + 1);
+            Map<String,Integer> countryMap = result.get(countryToOperate);
+            if (!countryMap.containsKey(cityToOperate)){
+                countryMap.put(cityToOperate,0);
+            }
+            countryMap.replace(cityToOperate, countryMap.get(cityToOperate) + 1);
         }
         return result;
     }
