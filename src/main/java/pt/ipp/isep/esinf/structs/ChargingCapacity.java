@@ -43,10 +43,10 @@ public class ChargingCapacity implements Comparable<ChargingCapacity> {
 
 
     public void addEntry(DataBitChargers bit){
-        if (!bit.getState().equals(state)){
+        if (!bit.getState().equals(state) || !bit.getStatus().equalsIgnoreCase("open")){
             return;
         }
-        chargingCapacity+=Integer.parseInt(bit.getkW());
+        chargingCapacity+=Integer.parseInt(bit.getkW())*Integer.getInteger(bit.getStalls());
         cities.add(bit.getCity());
     }
 
